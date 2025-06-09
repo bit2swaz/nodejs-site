@@ -1,7 +1,7 @@
 {
   "name": "nodejs-site",
   "version": "1.0.0",
-  "description": "Basic Node.js informational website",
+  "description": "Basic Node.js informational website with Express",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,8 +9,12 @@
   },
   "keywords": [
     "nodejs",
-    "website"
+    "website",
+    "express"
   ],
   "author": "",
-  "license": "ISC"
-} 
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

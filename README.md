@@ -1,6 +1,6 @@
-# Node.js Informational Website
+# Node.js Informational Website with Express
 
-A simple Node.js website with 4 pages:
+A simple Node.js website using Express with 4 pages:
 - Home page (/)
 - About page (/about)
 - Contact page (/contact-me)
@@ -8,7 +8,12 @@ A simple Node.js website with 4 pages:
 
 ## Setup
 
-No external dependencies are required. This project uses only Node.js built-in modules (`http`, `fs`, and `path`).
+```bash
+# Install dependencies
+npm install
+```
+
+This project uses Express.js for routing and serving static files.
 
 ## Running the server
 
